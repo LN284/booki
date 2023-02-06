@@ -1,0 +1,147 @@
+/*bleu foncé=#0065fc, bleu clair=#deebff, gris=#f2f2f2,les body et main sont de fond blanc.
+font-family=Roloway. Desktop>=992px, Tablet>=768px, Smartphone<768px, en @media queries*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    font-family: Roloway, sans-serif;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    padding-bottom: 50px;
+}
+
+header>img {
+    margin: 0;
+}
+
+nav {
+    margin-left: 900px;
+}
+
+nav ul {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    list-style-type: none;
+}
+
+#hbgt {
+    font-size: 18px;
+}
+
+#activ {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#hbgt a:hover, #activ a:hover {
+    border-top: 1px solid #0065fc;
+    color: #0065fc;
+    padding-top: 40px;
+}
+
+/*texte de la div, barre de recherche et filtre*/
+form {
+    margin-top: 20px;
+}
+
+#filt {
+    display:flex;
+    list-style-type: none;
+}
+
+#filter h3 {
+    margin-top: 33px;
+}
+
+.choix {
+    padding: 10px;
+    border: 3px solid #f2f2f2; 
+    border-radius: 40px;
+    margin: 20px;
+}
+/*ne fonctionne pas*/
+.choix :hover { 
+    background-clip: padding-box; 
+    background-color: #deebff; 
+}
+
+/*Hébergements à Marseille*/
+#heb {
+    background-color: #f2f2f2;
+}
+
+.vide {
+    color: #f2f2f2;
+}
+
+.bleu {
+    color: #0065fc;
+    list-style-type: none;
+    display: flex;
+}
+
+/*Activités à Marseille*/
+#acti {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+#acti>a {
+    border: 3px solid transparent;
+    box-shadow: 5px 5px 3px #f2f2f2;
+    border-radius: 10px;
+}
+
+#acti img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 400px;
+    width: 300px;
+}
+
+#acti figcaption {
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*footer*/
+footer {
+    display: flex;
+    background-color: #f2f2f2;
+    padding: 20px 40px 40px 40px;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.piedpage {
+    list-style-type: none;
+    padding: 40px;
+}
+
+.titre {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.piedpage li {
+    padding: 5px;
+}
